@@ -1,7 +1,10 @@
 public class Chicken implements Domesticatable, Tradable {
 
+    public Chicken() {
+    }
+
     /**
-     * Sound thing.
+     * Get a string representation of the sound of this Chicken.
      * @return the sound this Chicken makes.
      */
     public String sound() {
@@ -9,7 +12,7 @@ public class Chicken implements Domesticatable, Tradable {
     }
 
     /**
-     * Price thing. It's over 9000!
+     * Get the price of this Chicken.
      * @return the price of this animal.
      */
     public int getPrice() {
