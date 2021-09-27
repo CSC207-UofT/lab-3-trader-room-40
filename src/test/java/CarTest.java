@@ -1,8 +1,3 @@
-/*
- * This file contains sample JUnit test cases for Horse.java
- * You should NOT modify this file!
- */
-
 import org.junit.Before;
 import org.junit.Test;
 

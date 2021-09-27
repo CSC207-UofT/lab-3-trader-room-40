@@ -1,16 +1,15 @@
 /* A sample class that implements the given interfaces.
  */
 public class Car implements Drivable, Domesticatable, Tradable {
-    public int maxSpeed;
+    private int maxSpeed;
 
-    public Car(){this.maxSpeed = 20.0;}
+    public Car(){this.maxSpeed = 20;}
 
     @Override
     public String sound() {return ("Vroom!");}
 
     @Override
     public void upgradeSpeed() {this.maxSpeed += 2;}
-
 
     @Override
     public void downgradeSpeed() {this.maxSpeed -= 2;}
