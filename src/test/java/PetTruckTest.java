@@ -6,7 +6,7 @@ public class PetTruckTest {
     PetTruck p;
 
     @Before
-    public void setUp throws Exception {
+    public void setUp() throws Exception {
         p = new PetTruck();
     }
 
