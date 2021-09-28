@@ -31,4 +31,9 @@ public class CarTest {
     public void testGetMaxSpeed() {
         assertEquals(200, car.getMaxSpeed());
     }
+
+    @Test(timeout = 50)
+    public void testGetPrice(){
+        assertEquals(10000, car.getPrice());
+    }
 }
